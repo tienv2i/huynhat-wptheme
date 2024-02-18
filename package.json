@@ -1,0 +1,16 @@
+{
+  "name": "huynhat-wptheme",
+  "version": "1.0.0",
+  "description": "HuynhAT Wordpress Theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-css": "npx tailwindcss -i ./src/mii-style.css -o ./mii-style.css --watch",
+    "build-css": "npx tailwindcss -i ./src/mii-style.css -o ./mii-style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
